@@ -1,0 +1,16 @@
+{
+  "name": "@geoffreyw/holidates",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "start": "npx seve -e '*.json,*.md,node_modules,_shared' -p 8000 -i .",
+    "api": "npx json-server ./_shared/api.json"
+  },
+  "dependencies": {
+    "json-server": "^0.14.2"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1",
+    "seve": "^0.8.0"
+  }
+}
